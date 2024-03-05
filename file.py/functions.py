@@ -4,6 +4,7 @@ from datetime import date
 conn = psycopg2.connect("dbname=postgres user=postgres password=1231")
 cur = conn.cursor()
 
+#Вот те изменение ради которого стоит обновить гит
 
 # Функция для добавления товара на склад
 def add_product(name, description, price, quantity):
